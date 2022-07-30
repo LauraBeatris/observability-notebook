@@ -14,3 +14,11 @@ Here's a concise summary of what you can expect from each notes subfolder
 - [logging](./notes/logging): Specific notes around logging with code snippets of tools like [Winston](https://github.com/winstonjs/winston)
 - [monitoring](./notes/monitoring): Specific notes around monitoring, covering topics such as: Monitoring antipatterns, principles of monitoring design
 - [tracing](./notes/tracing): Specific notes around tracing, with code implementations and examples of using tools like [Open Telemetry](https://opentelemetry.io/)
+
+### :link: Resources 
+#### Observability
+- [What is Observability?](https://www.youtube.com/watch?v=orsxOxQNzDQ)
+- [Observability Engineering • Charity Majors, Liz Fong-Jones & George Miranda • GOTO 2022](https://www.youtube.com/watch?v=FZRpQOaePFU)
+- [#88 - Observability Engineering - Liz Fong-Jones](https://www.youtube.com/watch?v=AhFSqcjcGzM)
+- [Observability vs Monitoring](https://www.youtube.com/watch?v=C2j2OA52spE)
+- [Observability of Distributed Systems (class SRE implements DevOps)](https://www.youtube.com/watch?v=SoZZzB-yTOk)
