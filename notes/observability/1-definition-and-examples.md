@@ -1,4 +1,4 @@
-## What is observability?
+# What is observability?
  From [wikipedia](https://en.wikipedia.org/wiki/Observability):
 > Observability is a measure of how well internal states of a system can be inferred from knowledge of its external outputs
 
@@ -6,7 +6,7 @@ Observability means the ability to “see inside” of a system, to no have to i
 
 More accurately, observability in tech, means distributed tracing, which allows a system to receive a request and track that as it interacts with vary of functions, methods and services
 
-### What's tracing
+## What's tracing
 
 Traces generally consist of [spans](https://signoz.io/blog/distributed-tracing-span/), that represent those pieces of work, and in nearly all tracing systems, a spam has four pieces of data:
 
@@ -23,13 +23,13 @@ And often there's some additional metadata to help with search and aggregation. 
 
 In case of problems, such an increase of latency or an error, it makes it much easier to find exact what that is, so we don't to infer it from the metrics we already gathered  
 
-### Tools
+## Tools
 
 Many tracing tools will not only create spans for services but also for instance function or method call within the code being executed
 
 As a tracing tool is evaluated, it's important to know which languages and frameworks are supported so that you can get the most detailed tracing
 
-### Sampling
+## Sampling
 
 > Sampling, or downsampling, is reducing the sampling rate of a signal. For example, if you only trace one request for every 100 requests, you are downsampling your tracing.
 
