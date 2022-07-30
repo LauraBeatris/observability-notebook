@@ -1,6 +1,6 @@
 ## :orange_book: Observability Notebook
 
-A single source of truth of my learning journey of topics regarding observability and SRE 
+A single source of truth of my learning journey of topics regarding observability engineering and SRE 
 
 ### :round_pushpin: Repo Structure 
 
