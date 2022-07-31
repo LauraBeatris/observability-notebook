@@ -19,7 +19,7 @@ Traces generally consist of [spans](https://signoz.io/blog/distributed-tracing-s
 
 And often there's some additional metadata to help with search and aggregation. With these four main pieces of data, you can use the spans to reconstruct the exact execution of your system from input to output
 
-<img src="../../.github/images/tracing.png">
+<img src="../../.github/images/traces-2.png">
 
 In case of problems, such an increase of latency or an error, it makes it much easier to find exact what that is, so we don't to infer it from the metrics we already gathered  
 
