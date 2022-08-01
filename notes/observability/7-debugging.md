@@ -1,5 +1,7 @@
 # Debugging
 
+Traditional practices for debugging the internal state of software applications were designed for legacy systems that were much simpler than those we typically manage today
+
 > In the field of engineering as a whole, when we talk about going back to first principles, what we mean is to throw out everything that you know. Let's start by understanding the system from the laws of physics, or the laws of mathematics, instead of trying to “read the manual” to see what this machine says it does 
 
 If you use observability, you're actually doing a **debugging from first principles**
@@ -15,3 +17,12 @@ In the previous way of debugging, it used to be that you would kind of have this
 Anyone on your team who has learned how to do first principles debugging, is able to step into any unfamiliar situation and to figure it out in a predictable amount of time
 
 The goal should be on to not rely on experts of the codebase, but to make it so that in a worst-case scenario of someone who's inexperienced but knows first principles debugging, the issue will take 10 minutes of 30 minutes at most to debug rather than many hours
+
+## Debugging with Metrics Versus Observability
+
+> The metrics-based approach of monitoring relies on having encountered known failure modes in the past. Monitoring helps detect when systems are over or under predictable thresholds that someone has previously deemed an anomaly. But what happens when you don’t know that type of anomaly is even possible?
+
+When modern architectures started to favor decomposing monoliths into microservices, software engineers lost the ability to step through their code with traditional debuggers
+
+> Debugging with observability is about preserving as much of the context around any given request as possible, so that you can reconstruct the environment and circumstances that triggered the bug that led to a novel failure mode
+

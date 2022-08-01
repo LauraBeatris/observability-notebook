@@ -1,5 +1,7 @@
 # Monitoring and Observability 
 
+Traditional monitoring is a intuition-based investigative process 
+
 > Observability is a superset of the capabilities that monitoring would provide, thus they are not synonymous 
 
 Monitoring in the past was used in a way that engineers you get too caught in visual representations and presume things, trying to figure out when something has broken, troubleshooting by intuition, but not necessarily being able to answer why
@@ -22,4 +24,5 @@ You need observability to understand from the bottom-up what's happening, and yo
 
 > No matter how much data you have, you can't practice observability if you don't analyze and slice and dice it in real time
 
-The key difference between monitoring and observability is moving from “We have to push new code to understand things" to actually "We've already added the right instrumentation to debug things that we never anticipated would be a problem when we wrote the instrumentation”
+With monitoring, software developers can’t fully see their systems. The key difference between monitoring and observability is moving from “We have to push new code to understand things" to actually "We've already added the right instrumentation to debug things that we never anticipated would be a problem when we wrote the instrumentation”
+
