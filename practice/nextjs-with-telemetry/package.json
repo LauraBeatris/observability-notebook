@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node -r ./tracing.js ./node_modules/.bin/next dev",
     "build": "next build",
     "start": "next start",
     "lint:types": "tsc --noemit",
@@ -11,6 +11,8 @@
     "lint": "run-p lint:*"
   },
   "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.31.0",
+    "@opentelemetry/sdk-node": "^0.31.0",
     "autoprefixer": "^10.4.8",
     "next": "12.2.3",
     "postcss": "^8.4.14",
