@@ -23,6 +23,6 @@ Here's a concise summary of what you can expect from each notes subfolder
 - [Observability vs Monitoring](https://www.youtube.com/watch?v=C2j2OA52spE)
 - [Observability of Distributed Systems (class SRE implements DevOps)](https://www.youtube.com/watch?v=SoZZzB-yTOk)
 
-### Distributed Tracing 
+#### Distributed Tracing 
 - [Spans - a key concept of distributed tracing](https://signoz.io/blog/distributed-tracing-span/)
 - [Spans in OpenTelemetry](https://lightstep.com/opentelemetry/spans)
